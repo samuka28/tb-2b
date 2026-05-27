@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loja online</title>
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+        }
+
+        .container {
+            background-color: darkgreen;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 150px;
+            border: 2px solid white;
+            border-radius: 10px;
+        }
+
+        .caixa {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+
+        .caixinhas {
+            border: 1px solid white;
+            border-radius: 10px;
+            width: 400px;
+            height: 300px;
+            background-color: darkgreen;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            margin-top: 50px;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .imagen {
+            height: 200px;
+            width: 150px;
+            object-fit: cover;
+            border: 1px solid white;
+            border-radius: 10px;
+        }
+
+        input {
+            background-color: white;
+            height: 70px;
+            width: 600px;
+            border: 1px solid white;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .lup {
+            position: absolute;
+            margin-left: 525px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        .link {
+            font-size: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid white;
+            border-radius: 10px;
+            background-color: darkgreen;
+            width: 800px;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        .but {
+            width: 200px;
+            height: 40px;
+            margin-top: 10px;
+        }
+
+        .compra {
+            background-color: black;
+            color: white;
+            border: 1px solid white;
+            border-radius: 10px;
+            width: 400px;
+            height: 30px;
+        }
+
+        .banner {
+            width: 100%;
+        }
+
+        footer {
+            color: white;
+            background-color: darkgreen;
+            margin: 0;
+            text-align: center;
+        }
+
+        .imagenult {
+            width: 290px;
+        }
+
+        input {
+            color: white;
+        }
+
+        label {
+            color: white;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img width="100" height="100" src="https://img.icons8.com/?size=100&id=pKrplEv3lofi&format=png&color=000000"
+            alt="html-5--v" />
+        <div class="caixa">
+            <label for="name">nome:</label>
+            <input type="text" id="nome" name="nome">
+            <img class="lup" width="65" height="65" src="https://img.icons8.com/ios/50/search--v1.png"
+                alt="search--v1" />
+        </div>
+        <div>
+            <a href="#galeria">galeria</a>
+            <a href="#formulario">formulario</a>
+            <a href="#rodape">roda pé</a>
+        </div>
+    </div>
+    <img class="banner" src="./f55f0d3a-390f-498d-9407-0b25e87f82fd (1).png" alt="">
+    <div class="box" id="galeria">
+        <div class="caixinhas">
+            <img class="imagen" src="https://m.media-amazon.com/images/I/51k0qRQFcuL._AC_SX679_.jpg" alt="">
+            <a href="iphone17.html">Apple iPhone 17 Pro Max (256 GB) - Laranja cósmico <br>R$9.755,10</a>
+            <button class="compra">
+                adicionar ao carrinho
+            </button>
+        </div>
+        <div class="caixinhas">
+            <img class="imagen" src="https://m.media-amazon.com/images/I/61WKQRPeDaL._AC_SL1500_.jpg" alt="">
+            <a href="samsungs26ul.html">Celular Samsung Galaxy S26 Ultra 5G <br>R$8.763,47</a>
+            <button class="compra">
+                adicionar ao carrinho
+            </button>
+        </div>
+        <div class="caixinhas">
+            <img class="imagen" src="https://m.media-amazon.com/images/I/41FBUBvUY1L._AC_SX679_.jpg" alt="">
+            <a href="airpode.html">Apple AirPods Pro 3 <br> R$2.108,05</a>
+            <button class="compra">
+                adicionar ao carrinho
+            </button>
+        </div>
+        <div class="caixinhas">
+            <img class="imagen" src="https://m.media-amazon.com/images/I/51JNhjr4McL._AC_SX522_.jpg" alt="">
+            <a href="jbl.html"> JBL, Fone de Ouvido On ear, Tune 720BT - Preto<br>R$365,00</a>
+            <button class="compra">
+                adicionar ao carrinho
+            </button>
+        </div>
+
+    </div>
+    <div class="box">
+        <div class="caixinhas">
+            <img class="imagen" 7.jpg src="https://m.media-amazon.com/images/I/61V8VUE1dFL._AC_SX679_.jpg" alt="">
+            <a href="smartwacht.html">Amazfit Bip 5 Smart Watch 46mm, GPS, Alexa Built-in, Bluetooth Calling, 10-Day
+                Battery (Black)<br>R$399,00 </a>
+            <button class="compra">
+                adicionar ao carrinho
+            </button>
+        </div>
+        <div class="caixinhas">
+            <img class="imagen" src="https://m.media-amazon.com/images/I/71iQISlqPyL._AC_SX679_.jpg" alt="">
+            <a href="reloginte.html">Smartwatch Aurafit Relógio inteligente para Homens<br>R$275,50 </a>
+            <button class="compra">
+                adicionar ao carrinho
+            </button>
+        </div>
+        <div class="caixinhas">
+            <img class="imagen" src="https://m.media-amazon.com/images/I/51OfJptaYBL._AC_SX679_.jpg" alt="">
+            <a href="ipad.html">Apple 2024 iPad Pro de 11 polegadas (Wi-Fi, de 256 GB, Vidro convencional) -
+                Preto-espacial (M4)<br>R$12.499,00</a>
+            <button class="compra">
+                adicionar ao carrinho
+            </button>
+        </div>
+        <div class="caixinhas">
+            <img class="imagenult" src="https://m.media-amazon.com/images/I/51vdhMt8KcL._AC_SL1000_.jpg" alt="">
+            <a href="mac.html">Apple 2026 MacBook Air (de 13 polegadas, Chip M5 da Apple com CPU de 10 núcleos e GPU de
+                10 núcleos., 24GB Memória unificada, 1 TB) - Azul-céu<br>R$16.399,00 </a>
+            <button class="compra">
+                adicionar ao carrinho
+            </button>
+        </div>
+    </div>
+    </div>
+    <div class="link" id="formulario">
+        <label for="nome">nome:</label>
+        <input type="text" id="nome" name="nome">
+        <label for="email">email:</label>
+        <input type="text" id="email" email="email">
+        <button class="but">enviar</button>
+    </div>
+    <footer id="rodape">
+        <p>
+            Feito por Samuel R
+        </p>
+    </footer>
+</body>
+
+</html>
